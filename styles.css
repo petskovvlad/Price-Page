@@ -1,3 +1,139 @@
+.page {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  width: 1440px;
+  height: 1000px;
+  background-color: #141B1C;
+}
 
+.price-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 770px;
+  width: 380px;
+  margin-top: 115px;
+  background-color: #334247;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
+}
+.price-card:nth-child(1) {
+  margin-left: 132px;
+}
+.price-card:nth-child(2), .price-card:nth-child(3) {
+  margin-left: 18px;
+}
+.price-card__title {
+  margin-top: 33px;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+.price-card__subtitle {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
+.price-card__price {
+  margin-top: 33px;
+  width: 380px;
+  height: 105px;
+  font-size: 55px;
+  text-align: center;
+  line-height: 105px;
+  color: #fff;
+  font-weight: 700;
+}
+.price-card__description {
+  margin: 0;
+  margin: 40px 26.5px 0 26px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+}
+.price-card__option-list {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 18px;
+  list-style-type: none;
+}
+.price-card__option-list li {
+  height: 34px;
+  padding-left: 59px;
+  padding-top: 16px;
+}
+.price-card__option-list li:nth-child(odd) {
+  background-color: #2a3438;
+}
+.price-card__order-btn {
+  padding: 0;
+  margin: 39px 0 0 112px;
+  width: 154.6px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  line-height: 17px;
+  color: #fff;
+}
+.price-card__popular {
+  position: absolute;
+  width: 147px;
+  height: 25px;
+  line-height: 25px;
+  left: 263px;
+  top: 30px;
+  transform: rotate(45deg);
+  background-color: #DC3F45;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.second-price-card {
+  position: relative;
+}
+
+.first-card {
+  background-color: #5BB189;
+}
+
+.second-card {
+  background-color: #3A6BA5;
+}
+
+.third-card {
+  background-color: #EC632A;
+}
+
+.first-option-list li {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+  background-repeat: no-repeat;
+  background-size: 15px 13px;
+  background-position: 22px 18px;
+}
+
+.second-option-list li {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+  background-repeat: no-repeat;
+  background-size: 15px 13px;
+  background-position: 22px 18px;
+}
+
+.third-option-list li {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+  background-repeat: no-repeat;
+  background-size: 15px 13px;
+  background-position: 22px 18px;
+}
 
 /*# sourceMappingURL=styles.css.map */
