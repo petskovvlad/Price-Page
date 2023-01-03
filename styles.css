@@ -13,6 +13,7 @@
   height: 770px;
   width: 380px;
   margin-top: 115px;
+  margin-bottom: 115px;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
 }
@@ -21,6 +22,9 @@
 }
 .price-card:nth-child(2), .price-card:nth-child(3) {
   margin-left: 18px;
+}
+.price-card:nth-child(3) {
+  margin-right: 132px;
 }
 .price-card__title {
   margin-top: 33px;
@@ -135,3 +139,5 @@
   background-size: 15px 13px;
   background-position: 22px 18px;
 }
+
+/*# sourceMappingURL=styles.css.map */
