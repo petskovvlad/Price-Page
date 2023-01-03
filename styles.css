@@ -1,13 +1,18 @@
+html {
+  font-family: Montserrat, sans-serif;
+}
+
 body {
   background-color: #141B1C;
   overflow: hidden;
 }
 
 .page {
-  font-family: Montserrat, sans-serif;
   display: flex;
   width: 1440px;
   height: 1000px;
+  justify-content: center;
+  align-items: center;
 }
 
 .price-card {
@@ -16,8 +21,6 @@ body {
   overflow: hidden;
   height: 770px;
   width: 380px;
-  margin-top: 115px;
-  margin-bottom: 115px;
   background-color: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
 }
