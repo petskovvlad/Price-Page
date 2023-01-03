@@ -1,9 +1,13 @@
+html {
+  background-color: #141B1C;
+  overflow: hidden;
+}
+
 .page {
   font-family: Montserrat, sans-serif;
   display: flex;
   width: 1440px;
   height: 1000px;
-  background-color: #141B1C;
 }
 
 .price-card {
