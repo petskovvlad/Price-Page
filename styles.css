@@ -65,7 +65,7 @@ body {
   color: #fff;
   text-align: center;
 }
-.price-card__option-list {
+.price-card__options-list {
   margin: 0;
   padding: 0;
   margin-top: 40px;
@@ -74,12 +74,12 @@ body {
   line-height: 18px;
   list-style-type: none;
 }
-.price-card__option-list li {
+.price-card__options-list li {
   height: 34px;
   padding-left: 59px;
   padding-top: 16px;
 }
-.price-card__option-list li:nth-child(odd) {
+.price-card__options-list li:nth-child(odd) {
   background-color: #2a3438;
 }
 .price-card__order-btn {
